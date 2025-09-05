@@ -1,0 +1,13 @@
+{
+  "loader": "ts-node/esm",
+  "require": [
+    "global-jsdom/register"
+  ],
+  "extensions": [
+    "ts",
+    "tsx"
+  ],
+  "spec": [
+    "tests/**/*.test.ts?(x)"
+  ]
+}
