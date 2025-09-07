@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "test": "cross-env TS_NODE_PROJECT=tsconfig.test.json mocha --experimental-specifier-resolution=node --reporter spec",
-    "test:jest": "jest --coverage",
+    "test:jest": "jest ",
     "test:jest:watch": "jest --watch",
     "build": "next build --turbopack",
     "start": "next start",
