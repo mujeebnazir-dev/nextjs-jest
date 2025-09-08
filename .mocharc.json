@@ -8,6 +8,6 @@
     "tsx"
   ],
   "spec": [
-    "tests/**/*.test.ts?(x)"
+    "__tests__/**/*.test.ts?(x)"
   ]
 }
